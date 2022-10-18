@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Jost&family=Nunito:wght@400;600&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Jost&family=Nunito:wght@400;600&family=Poppins:wght@500&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Jost&family=Nunito:wght@400;600&family=Poppins:wght@500&family=Questrial&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    /* font-family: 'Comfortaa', cursive; */
+    background: linear-gradient(90deg, #7786e6,#1ddcdf);
+}
+
+h4{
+    font-family: 'Questrial', sans-serif;
+}
+
+
+.btn{
+    @apply shadow-md py-2 px-6 rounded-md 
+    transition duration-300 
+     mx-auto
+    /* bg-gradient-to-r from-green-400 to-gray-300 hover:from-pink-500 hover:to-yellow-500 */
+}
+
+.btn_green{
+    @apply  shadow-lg  bg-gradient-to-l from-green-400
+     to-gray-300 hover:from-pink-500
+      hover:to-yellow-500 ;
+}
+
+
+.btn_violet{
+    @apply  shadow-lg  bg-gradient-to-l from-rose-300
+     to-pink-500 hover:from-pink-500
+      hover:to-yellow-500 ;
+    
+}
+
+
+.rectangle {
+    background: linear-gradient(90deg, #1490f0,#7e22f7);
+}
+
+
+.btn_middle {
+    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
+
+.rectangle2
+ {
+    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
